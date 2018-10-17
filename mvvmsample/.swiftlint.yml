@@ -1,0 +1,7 @@
+whitelist_rules:
+  - colon
+  - comma
+  - force_unwrapping
+
+excluded:
+  - Pods

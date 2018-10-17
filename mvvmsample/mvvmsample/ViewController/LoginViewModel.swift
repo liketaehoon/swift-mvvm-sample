@@ -15,14 +15,14 @@ protocol LoginViewModelInput {
     func login()
 }
 protocol LoginViewModelOutput {
-    var loginButtonEnabled:PublishSubject<Bool> { get }
-    var alert:PublishSubject<String> { get }
+    var loginButtonEnabled: PublishSubject<Bool> { get }
+    var alert: PublishSubject<String> { get }
 }
 
-class LoginViewModel : LoginViewModelInput, LoginViewModelOutput {
-    let loginButtonEnabled:PublishSubject<Bool> = PublishSubject<Bool>()
-    let alert:PublishSubject<String> = PublishSubject<String>()
-    var id:String! = ""
+class LoginViewModel: LoginViewModelInput, LoginViewModelOutput {
+    let loginButtonEnabled: PublishSubject<Bool> = PublishSubject<Bool>()
+    let alert: PublishSubject<String> = PublishSubject<String>()
+    var id: String! = ""
     var password: String! = ""
 }
 

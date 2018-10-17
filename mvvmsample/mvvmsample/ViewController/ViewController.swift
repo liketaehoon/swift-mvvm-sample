@@ -11,7 +11,7 @@ import RxSwift
 
 class ViewController: UIViewController, UITextFieldDelegate {
     
-    let loginViewModel:LoginViewModel = LoginViewModel()
+    let loginViewModel: LoginViewModel = LoginViewModel()
     let disposeBag = DisposeBag()
     
     @IBOutlet weak var loginButton: UIButton!
