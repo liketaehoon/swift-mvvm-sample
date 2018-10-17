@@ -13,4 +13,4 @@
 
 ## Sample project에 대한 간단한 설명
 1. package management로 cocoapods르 사용합니다.
-
+2. RxBlocking을 이용한 ViewModel UnitTest.
